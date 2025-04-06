@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: mt-gitops-repo # v spoločnom klastri je nasadených viacero takýchto objektov
-  namespace: mt-wac-project
+  namespace: wac-hospital
 spec:
   interval: 1m0s
   ref:

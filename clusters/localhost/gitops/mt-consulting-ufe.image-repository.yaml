@@ -2,7 +2,7 @@ apiVersion: image.toolkit.fluxcd.io/v1beta2
 kind: ImageRepository
 metadata:
   name: mt-consulting-ufe
-  namespace: mt-wac-project
+  namespace: wac-hospital
 spec:
   image: xtodorovicm/mt-consulting-ufe
   interval: 1m0s
