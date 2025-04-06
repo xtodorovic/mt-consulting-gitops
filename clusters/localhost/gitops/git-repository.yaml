@@ -1,0 +1,13 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: gitops-repo
+  namespace: mt-wac-project
+spec:
+  interval: 1m0s
+  ref:
+    branch: main
+  secretRef:
+    name: repository-pat
+  timeout: 1m0s
+  url: https://github.com/xtodorovic/mt-consulting-gitops
