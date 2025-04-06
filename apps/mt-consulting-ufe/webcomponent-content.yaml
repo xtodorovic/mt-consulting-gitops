@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: mt-consulting-ufe-content
+spec:
+  microFrontend: mt-consulting-ufe
+  element: consultation-form
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?mt-consulting-ufe(/.*)?$"
