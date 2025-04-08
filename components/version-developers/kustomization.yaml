@@ -3,4 +3,4 @@ kind: Component
 images:
 - name: xtodorovicm/mt-consulting-ufe
   newName: xtodorovicm/mt-consulting-ufe # {"$imagepolicy":  "wac-hospital:mt-consulting-ufe:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:mt-consulting-ufe:tag"}
+  newTag: main.20250406.1603 # {"$imagepolicy": "wac-hospital:mt-consulting-ufe:tag"}
