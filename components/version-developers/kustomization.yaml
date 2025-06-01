@@ -4,3 +4,6 @@ images:
 - name: xtodorovicm/mt-consulting-ufe
   newName: xtodorovicm/mt-consulting-ufe # {"$imagepolicy":  "wac-hospital:mt-consulting-ufe:name"}
   newTag: main.20250406.1603 # {"$imagepolicy": "wac-hospital:mt-consulting-ufe:tag"}
+- name: xtodorovicm/mt-consulting-webapi
+  newName: xtodorovicm/mt-consulting-webapi # {"$imagepolicy":  "wac-hospital:mt-consulting-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:mt-consulting-webapi:tag"}

@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/mt-consulting-ufe
+- ../../../apps/mt-consulting-webapi
+
+patches:
+- path: patches/mt-consulting-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/xtodorovic/mt-consulting-webapi//deployments/kustomize/components/mongodb

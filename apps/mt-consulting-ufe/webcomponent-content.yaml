@@ -5,6 +5,11 @@ metadata:
 spec:
   microFrontend: mt-consulting-ufe
   element: consultation-form
+  attributes:
+    - name: api-base
+      value: http://localhost:30081/api
+    - name: base-path
+      value: /
   displayRules:
     - allOf:
       - context-name: main-content
