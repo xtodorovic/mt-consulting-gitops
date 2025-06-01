@@ -4,3 +4,6 @@ images:
 - name: xtodorovicm/mt-consulting-ufe
   newName: xtodorovicm/mt-consulting-ufe
   newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: xtodorovicm/mt-consulting-webapi
+  newName: xtodorovicm/mt-consulting-webapi
+  newTag: 1.0.1

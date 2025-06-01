@@ -12,7 +12,7 @@ labels:
 
 resources:
 - ../../../apps/mt-consulting-ufe
-
+- ../../../apps/mt-consulting-webapi
 
 components:
 - ../../../components/version-release
