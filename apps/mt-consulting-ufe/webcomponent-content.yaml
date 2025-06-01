@@ -7,7 +7,7 @@ spec:
   element: consultation-form
   attributes:
     - name: api-base
-      value: http://localhost:30081/api
+      value: /mt-consulting-api
     - name: base-path
       value: /
   displayRules:

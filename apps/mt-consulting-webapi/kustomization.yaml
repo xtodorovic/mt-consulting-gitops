@@ -7,4 +7,4 @@ resources:
 - http-route.yaml
 
 patches:
-- path: patches/ambulance-webapi.deployment.yaml
+- path: patches/mt-consulting-webapi.deployment.yaml

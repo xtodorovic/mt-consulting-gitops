@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: mt-openapi-ui
+  name: mt-consulting-openapi-ui
 spec:
   selector:
-    pod: mt-ambulance-webapi-label
+    pod: mt-consulting-webapi-label
   ports:
   - name: http
     protocol: TCP
